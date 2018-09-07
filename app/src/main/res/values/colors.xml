@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="trans">#00000000</color>
+    <color name="trans_half">#99000000</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#4A90E2</color>
+    <color name="blue_invite">#409DFF</color>
+    <color name="blue_d">#3B81B3</color>
+    <color name="blue_facebook">#5D82D1</color>
+    <color name="blue_video_tag">#5999e5</color>
+    <color name="orange">#FF6600</color>
+    <color name="orange_f0">#F0A13A</color>
+    <color name="orange_d">#DF6518</color>
+    <color name="orange_red">#ffef3c28</color>
+    <color name="package_red">#de564f</color>
+    <color name="green_d">#1AAD19</color>
+    <color name="green_gui_button">#17af91</color>
+    <color name="green_press">#168F15</color>
+    <color name="lividity">#21292B</color><!--青黑色-->
+    <color name="image_viewer_bar">#bb000000</color>
+    <color name="red">#d43c33</color>
+    <color name="red_press">#c32222</color>
+    <color name="orange_new_red">#FF7100</color>
+    <color name="red_delete">#ff5555</color>
+    <color name="floor">#FFF8DC</color>
+    <color name="yellow">#FFCC19</color>
+    <color name="yellow_d">#F4940B</color>
+    <color name="user_gui">#1AAD19</color>
+    <color name="user_person_gui">#f5a623</color>
+    <color name="yellow_warn">#FCF16E</color>
+    <color name="gray">#BEBEBE</color>
+    <color name="alpha_gray">#88BEBEBE</color>
+    <color name="reply_select">#EAEAEA</color>
+    <color name="gray_6e">#6e6e6e</color>
+    <color name="gray_bd">#BDBDBD</color>
+    <color name="gray_9b">#9b9b9b</color>
+    <color name="gray_d5">#d5d5d5</color>
+    <color name="gray_d2">#d2d2d2</color>
+    <color name="gray_fa">#f1f1f1</color>
+    <color name="gray_f7">#f7f7f7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_title">#000000</color>
+    <color name="background">#FFF2F2F2</color>
+    <color name="tab_bg">#FFF4F4F4</color>
+    <color name="diving">#FFD2D2D2</color>
+    <color name="textGray">#FFa1a1a1</color>
+    <color name="textNormal">#FF323232</color>
+    <color name="text_news_title">#FF323232</color>
+    <!--<color name="green_main">#1AAD19</color>-->
+    <color name="green_main">@color/color_primary_yellow</color><!--直接改主要颜色值： yinjun-->
+    <!--<color name="refresh_tip">#ffea9e</color>-->
+    <color name="refresh_tip">#FFB100</color>
+    <!--<color name="refresh_tip_warning">#FEE4E3</color>-->
+    <color name="refresh_tip_warning">@color/color_primary_yellow</color>
+    <color name="hint_color">#FFbebebe</color>
+    <color name="person_top_menu_bg">#44000000</color>
+    <color name="red_bag_line">#33000000</color>
+    <color name="person_top_menu_bg_press">#66000000</color>
+    <color name="gray_97">#979797</color>
+    <color name="orange_chests">#f5a70c</color>
+    <color name="orange_login_google">#FF7D50</color>
+    <color name="color_for_half_transparent">#3F000000</color>
+    <color name="refresh_tip_text">#6c5400</color>
+    <color name="refresh_tip_waring_text">#f7534f</color>
+    <color name="video_comment_text">#5D646F</color>
+    <color name="bg_red_bag_unopen">#E05449</color>
+    <color name="bg_red_bag_opened">#D84E43</color>
+
+
+    <color name="corner_red">#F7534F</color>
+    <color name="corner_red_press">#df3435</color>
+
+    <color name="corner_yellow">#FFC701</color>
+    <color name="corner_yellow_press">#f5a70c</color>
+
+    <color name="btn_exit_normal">#FF6A6A</color>
+    <color name="btn_exit_press">#CD5555</color>
+
+    <color name="primary">#ffdf3435</color>
+    <color name="primaryDark">#FFB63E37</color>
+
+    <color name="press_bg">#DADADA</color>
+
+    <color name="rp_text_from_color">#ddb989</color>
+    <color name="rp_text_title_color">#fee0b6</color>
+
+<!--liberal Media toolbar -->
+
+    <color name="bg_lm_background">#515562</color>
+    <color name="bg_lm_follow_btn_background">#19FFFFFF</color>
+
+    <color name="line_color">#e0e0e0</color>
+    <color name="theme_txt_color_primary">#FFA832</color>
+    <color name="color_oval_bg">#F2F2F2</color>
+    <color name="theme_txt_title_color">#333333</color>
+    <color name="time_color_gray">#999999</color>
+
+
+    <color name="login_btn_normal">#fc9e01</color>
+    <color name="login_btn_press">#e99200</color>
+    <color name="rig_btn_normal">#fcd001</color>
+    <color name="rig_btn_press">#e2bb00</color>
+
+    <color name="phone_item_n">#FFC97F</color>
+    <color name="phone_item_s">#FF9400</color>
+
+
+    <color name="color_txt_gray">#cccccc</color>
+    <color name="color_txt_gray_tab">#9F9F9F</color>
+    <color name="color_comment_header_line">#E0E0E0</color>
+    <color name="color_comment_name">#5B7BA8</color>
+    <color name="color_comment_replay">#666666</color>
+    <color name="color_gray">#707070</color>
+    <color name="color_home_tab_n">#999999</color>
+    <color name="color_primary_black">#333333</color>
+    <color name="color_gray_alpha">#66000000</color>
+    <color name="color_primary_yellow">#fc9e01</color>
+    <color name="color_primary_line">#F2F2F2</color>
+    <color name="color_edit_bg">#F1F1F1</color>
+    <color name="color_dialog_login_txt">#28282A</color>
+    <color name="bg_video_normal">#66000000</color>
+    <color name="color_video_comment">#9B9B9B</color>
+    <color name="color_btn_stroke">#B6B6B6</color>
+    <drawable name="draw_txt_gray">#bb9F9F9F</drawable>
+    <color name="text_black_normal">#3F4347</color>
+
+    <color name="tv_color_kstore_red">#FF4040</color>
+    <color name="color_sign_in_bg">#FFC97F</color>
+    <color name="color_sign_in_top">#FFF6E7</color>
+
+    <color name="color_coin_bg">#FF7100</color>
+    <color name="color_coin_inside_arc">#FFE054</color>
+    <color name="color_coin_circle">#FFC900</color>
+    <color name="color_coin_text_color">#FF7100</color>
+    <color name="color_yellow_btn">#FFBB4A</color>
+    <color name="color_sign_in_tomorrow">#EDEDED</color>
+
+    <color name="text_color_person_code">#409DFF</color>
+    <color name="text_color_award_toast">#FF4100</color>
+    <color name="text_color_sign_s">#EBEBEB</color>
+    <color name="text_color_sign_n">#FEE9C5</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <color name="main_pink_color">#fd6e66</color>
+    <color name="video_pross_delete">#fd9690</color>
+
+
+
+    <color name="text_color_importance">#222222</color>
+    <color name="text_color_normal">#666666</color>
+    <color name="text_color_assist">#999999</color>
+    <color name="text_color_disabled">#cccccc</color>
+
+    <color name="theme_color_main">#FC9E01</color>
+    <color name="theme_color_minor">#FF7100</color>
+    <color name="bg_color">#F2F2F2</color>
+    <color name="comment_blue">#409DFF</color>
+
+    <color name="bg_comment_edit_normal">#F5F5F5</color>
+
+
+</resources>

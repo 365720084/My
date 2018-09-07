@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="str_launch_title_one">
+        <item>Kaya Informasi  Kaya Rezeki</item>
+        <item>Hadiah Kejutan</item>
+        <item>Reward Misi</item>
+    </string-array>
+
+    <string-array name="str_launch_title_two">
+        <item>Baca dan Nonton di KUBIK\ndapat Banyak Rezeki</item>
+        <item>Login dan raih uang hingga Rp 100K </item>
+        <item>Selesaikan misi,banyakin pundi-pundi </item>
+    </string-array>
+
+
+    <string-array name="str_array_time_week">
+        <item>@string/str_time_sunday</item>
+        <item>@string/str_time_monday</item>
+        <item>@string/str_time_tuesday</item>
+        <item>@string/str_time_wednesday</item>
+        <item>@string/str_time_thursday</item>
+        <item>@string/str_time_friday</item>
+        <item>@string/str_time_saturday</item>
+    </string-array>
+</resources>

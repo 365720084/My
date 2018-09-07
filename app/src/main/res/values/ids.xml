@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view_title" type="id" />
+    <item name="text_title" type="id" />
+    <item name="amain_btn_new" type="id" />
+    <item name="amain_btn_video" type="id" />
+    <item name="amain_btn_gif" type="id" />
+    <item name="amain_btn_activity" type="id" />
+    <item name="amain_btn_find" type="id" />
+    <item name="amain_btn_attention" type="id" />
+    <item name="amain_btn_person" type="id" />
+</resources>

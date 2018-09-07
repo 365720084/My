@@ -1,0 +1,538 @@
+<resources>
+    <string name="user_first_interest_change">ganti</string>
+    <string name="user_first_interest_title">interest？</string>
+    <string name="user_first_interest_subtitle">Rekomendasi</string>
+    <string name="user_first_interest_tip">pilih 1-6 jenis ketertarikan anda</string>
+    <string name="user_first_interest_finish">masuk kedalam</string>
+    <string name="user_first_age_next">berikutnya</string>
+    <string name="user_first_age_title">Umur?</string>
+    <string name="user_first_interest_tip_choice">bisa memilih lebih dari satu %d sudah dipilih</string>
+    <string name="toast_login_comment">log in dan komentar</string>
+    <string name="toast_login_report">Log in dan masukkan kritik dan saran</string>
+    <string name="title_activity_v5_kf">V5KFActivity</string>
+
+
+    <string name="freshchat_file_provider_authority">com.kubik.news.provider</string>
+    <!--<string name="facebook_app_id">1333825263382282</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb1333825263382282</string>-->
+    <!--<string name="facebook_app_id">165325574161018</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb165325574161018</string>-->
+
+    <!--<string name="facebook_app_id">1538625322860435</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb1538625322860435</string>-->
+
+    <string name="server_client_id">kubik-news@appspot.gserviceaccount.com</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--firebase ad test-->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <!--hotline-->
+    <string name="hotline_file_provider_authority">com.kubik.news.provider</string>
+    <string name="kubik_news_provider_authority">com.kubik.news.provider</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tab_news_contentname">Home</string>
+    <string name="tab_video_contentname">Video</string>
+    <string name="fresh">Refresh</string>
+    <string name="str_exit">"Klik sekali lagi dan keluar"</string>
+    <string name="str_install_app">"Instal"</string>
+    <array name="str_app_loading">
+        <item>Loading</item>
+        <item>Loading.</item>
+        <item>Loading..</item>
+        <item>Loading...</item>
+    </array>
+    <string name="str_tip_download">Open Browser, copy paste link dan download.</string>
+    <string name="str_tip">"Peringatan"</string>
+    <string name="str_ignore">"skip"</string>
+    <string name="str_to_setting_content">"setting security dan unblok sistem \n\n buka kembali aplikasi"</string>
+    <string name="str_to_setting">"setting"</string>
+    <string name="str_down_fail">"download gagal"</string>
+    <string name="str_down_complete">"download sukses"</string>
+    <string name="str_down_continue">"lanjutkan"</string>
+    <string name="str_down_start">"mulai download"</string>
+    <string name="str_forget_pwd">"lupa password?"</string>
+    <string name="str_login_gift">"log in dan dapatkan Angpao"</string>
+    <string name="str_login">"log in"</string>
+    <string name="str_show_pwd">"tampilkan password"</string>
+    <string name="str_hide_pwd">"sembunyikan tampilan"</string>
+
+    <string name="str_format_pic">"%1$dgambar"</string>
+    <string name="str_format_pin">"%1$dulasan"</string>
+    <string name="str_format_comment">"%1$dulasan"</string>
+    <string name="str_format_hot">"hot %1$s"</string>
+    <string name="str_format_enjoy">"%1$sPartisipasi"</string>
+    <string name="str_format_qu">"Rekomendasi【%1$s】"</string>
+    <string name="str_format_jump">"%1$d skip"</string>
+    <string name="str_format_sms_time">"%1$sdikirim beberapa saat lagi"</string>
+    <string name="str_format_age">"%1$s %2$dtahun"</string>
+    <string name="str_format_num_wan">"%.1fJuta"</string>
+    <string name="str_format_reason">"sudah memilih %1$d alasan"</string>
+    <string name="str_format_hongbao">"Jumlah Angpao：%1$s/%2$s"</string>
+    <string name="str_format_news_flush">"「KUBIK」sudah perbaharui %1$d bacaan"</string>
+    <string name="str_format_pocket_money">"%1$s\nMy money"</string>
+    <string name="str_format_gold">"%1$s\nPoint"</string>
+    <string name="str_format_follow">"dibaca oleh %1$s pembaca"</string>
+
+    <string name="str_comment">"ulasan"</string>
+    <string name="str_clear_his">"hapus histori pencarian"</string>
+    <string name="str_has_follow">"sudah mengikuti"</string>
+    <string name="str_follow">"mengikuti"</string>
+    <string name="str_done">"Selesai"</string>
+    <string name="str_tip_scroll">"Kategoriku tarik untuk ubah urutan"</string>
+    <string name="str_edit">"Atur"</string>
+    <string name="str_my_channel">"Kategoriku"</string>
+    <string name="str_hot_comment">"ULASAN HOT"</string>
+    <string name="str_new_comment">"ULASAN TERBARU"</string>
+    <string name="str_tip_login_first">"log in terlebih dahulu"</string>
+    <string name="str_tip_load_all_reply">"sudah tampilkan semua balasan"</string>
+    <string name="str_error">"gagal"</string>
+    <string name="str_yesterday">"kemarin"</string>
+    <string name="str_today">"hari ini"</string>
+    <string name="str_cancel">"Pembatalan"</string>
+    <string name="str_sure">"Ok"</string>
+    <string name="str_fans">"penggemar"</string>
+    <string name="str_head_video">"video top"</string>
+    <string name="str_invitation_friend">"invite teman"</string>
+    <string name="str_head_task">"misi utama"</string>
+    <string name="str_task_sys">"sistem misi"</string>
+    <string name="str_send_news">"rekomendasi"</string>
+    <string name="str_tip_time_use">"tampilan pertama %1$s,log out terakhir %2$s,total durasi %3$d detik"</string>
+    <string name="str_read_file_fail">"pembacaan data gagal"</string>
+    <string name="str_no_network">"tidak ada koneksi internet"</string>
+    <string name="str_kindly_remind">"warning:"</string>
+    <string name="str_tip_down">"diluar jangkauan wifi, anda digantikan dengah kuota internet anda"</string>
+    <string name="str_cancel_done">"sukses pembatalan"</string>
+    <string name="str_follow_suc">"sukses mengikuti"</string>
+    <string name="str_tip_follow">"klik [mengikuti] dan update berita terbaru"</string>
+    <string name="str_look">"masuk kedalam"</string>
+    <string name="str_close">"tutup"</string>
+    <string name="str_read">"menbaca"</string>
+    <string name="str_tip_phone">"nomor handphone tidak boleh kosong"</string>
+    <string name="str_tip_phone_err">"nomor handphone yang anda masukkan salah"</string>
+    <string name="str_tip_pwd">"password tidak boleh kosong"</string>
+    <string name="str_tip_pwd_short">"password terlalu sedikit, minimal 6 digit"</string>
+    <string name="str_tip_pwd_same">"pengisian password selama dua kali tidak sama"</string>
+    <string name="str_tip_code_pic">"Gambar kode verifikasi tidak boleh kosong"</string>
+    <string name="str_tip_code_sms">"Kode verifikasi tidak boleh kosong"</string>
+    <string name="str_save_fail">"Penyimpanan gagal"</string>
+    <string name="str_save">"Simpan"</string>
+    <string name="str_save_suc">"Penyimpanan sukses"</string>
+    <string name="str_save_to">"Sudah tersimpan di.."</string>
+    <string name="str_pic_handing">"Gambar sedang di proses"</string>
+    <string name="str_please_wait">"Mohon di tunggu"</string>
+    <string name="str_jumping">"Moving..."</string>
+    <string name="str_network_error">"Tidak ada koneksi internet"</string>
+    <string name="str_network_error_tip">"Tidak ada koneksi internet silakan perbaharui"</string>
+    <string name="str_network_busy">"Jaringan sibuk, silakan dicoba kembali beberapa saat lagi"</string>
+    <string name="str_network_not_stable">"Tidak ada jaringan, coba lagi nanti"</string>
+    <string name="str_network_connect_fail">"Tidak terkonek"</string>
+    <string name="str_no_install">"Tidak terinstal"</string>
+    <string name="str_tip_mi_permission">"silakan di buka yang ditandai dengan warna merah!"</string>
+    <string name="str_not_found_pic">"Gambar tidak ditemukan！"</string>
+    <string name="str_choose_pic">"Pilih gambar"</string>
+    <string name="str_open_fail">"tidak bisa dibuka"</string>
+    <array name="strs_constellations">
+        <item>"Capricon"</item>
+        <item>"Aquarius"</item>
+        <item>"Pisces"</item>
+        <item>"Aries"</item>
+        <item>"Taurus"</item>
+        <item>"Gemini"</item>
+        <item>"Cancer"</item>
+        <item>"Leo"</item>
+        <item>"Virgo"</item>
+        <item>"Libra"</item>
+        <item>"Scorpio"</item>
+        <item>"Sagitarius"</item>
+    </array>
+    <string name="str_congratulations">"Selamat"</string>
+    <string name="str_reply">"reply"</string>
+    <string name="str_complaint">"Komplain"</string>
+    <string name="str_delete">"Hapus"</string>
+    <string name="str_frozen">"Freeze"</string>
+    <string name="str_hide">"Sembunyikan"</string>
+    <string name="str_praise">"Suka"</string>
+    <string name="str_tip_has_praise">"Liked"</string>
+    <string name="str_al_cancel">"Canceled"</string>
+    <string name="str_al_collection">"favorit"</string>
+    <string name="str_send_suc">"Terkirim"</string>
+    <string name="str_send">"Kirim"</string>
+    <string name="str_tip_cant_comment_self">"Tidak bisa membuat ulasan terhadap diri sendiri"</string>
+    <string name="str_click_hear">"  Klik disini  "</string>
+    <string name="str_praise_comment">"like /beri ulasan"</string>
+    <string name="str_reply_author">" Klik Replier "</string>
+    <string name="str_reply_quick">"Segera di reply~"</string>
+    <string name="str_uploading">"Upload sedang di proses"</string>
+    <string name="str_tip_save_fail">"Penyimpanan gagal, silakan di perbaharui halaman dan coba kembali"</string>
+    <string name="str_upload_immediately">"klik dan upload"</string>
+    <string name="str_network_upload_fail">"Upload gagal, silakan periksa kembali koneksi internet"</string>
+    <string name="str_upload_suc">"Upload berhasil!"</string>
+    <string name="str_collection">"Favorit"</string>
+    <string name="str_send_sms_code">"Kirim kode verifikasi"</string>
+    <string name="str_al_send_sms_code">"Kode verifikasi terkirim"</string>
+    <string name="str_phone_code">"Kode verifikasi"</string>
+    <string name="str_tip_auto_sms">"Kode verifikasi terisi otomatis"</string>
+    <string name="str_edit_pwd_suc">"Repassword berhasil"</string>
+    <string name="str_read_pic_fail">"Gambar tidak terbaca"</string>
+    <string name="str_tip_name_empty">"Nama tidak boleh kosong"</string>
+    <string name="str_please_choose_birthday">"Silkan mengisi tanggal lahir"</string>
+    <string name="str_item_take_photo">"foto"</string>
+    <string name="str_item_get_from_gallery">"Upload dari galeri"</string>
+    <string name="str_choose_mode">"ara pemilihan"</string>
+    <string name="str_camera_refuse">"Gagal pengambilan foto！"</string>
+    <string name="str_tip_save_edit">"Pengubahan ini belum di simpan, di simpan atau tidak?"</string>
+    <string name="str_hot_pic_recommend">"Rekomendasi Gambar"</string>
+    <string name="str_send_friend">"Kirim ke teman"</string>
+    <string name="str_save_pic">"Simpan Gambar"</string>
+    <string name="str_al_save_pic">"Gambar tersimpan"</string>
+    <string name="str_article_gone">"Artikel tidak ada"</string>
+    <string name="str_read_gift">"Reward membaca"</string>
+    <string name="str_article">"Artikel"</string>
+    <string name="str_video">"Video"</string>
+    <string name="str_gif">Video</string>
+    <string name="str_event">event</string>
+    <string name="str_cancel_follow">"Unfollow"</string>
+    <string name="str_gift_remain_close">"Tutup reward warning"</string>
+    <string name="str_gift_remain_open">"Buka reward warning"</string>
+    <string name="str_tip_upload_recorder_fail">"Upload rekorder gagal"</string>
+    <string name="str_read_contact_fail">"Pembacaan daftar contacts gagal"</string>
+    <string name="str_apply_permission_fail">"Permohonan perizinan gagal！"</string>
+    <string name="str_read_agree">"Sudah dibaca dan setuju"</string>
+    <string name="str_user_rule_qu">"Persetujuan akun KUBIK"</string>
+    <string name="str_please_check_rule_qu">"「Silakan memilih setuju(Persetujuan akun KUBIK)」"</string>
+    <string name="str_al_clean">"sudah dibersihkan"</string>
+    <string name="str_find_market_fail">"Tidak menemukan market"</string>
+    <string name="str_choose_test_environment">"Pilih lokasi tes"</string>
+    <string name="str_reason_down_fail">"Download gagal："</string>
+    <string name="str_no_sdcard">"Tidak menemukan kartu SD, gambar tidak tersimpan"</string>
+    <string name="str_pic_gone">"Gambar tidak ada！"</string>
+    <array name="strs_ages">
+        <item>"umur 18 kebawah"</item>
+        <item>"mur 18-24"</item>
+        <item>"mur 25-40"</item>
+        <item>"mur 41-60"</item>
+        <item>"umur 60 ke atas"</item>
+    </array>
+    <array name="strs_news_type">
+        <item>"Sejarah"</item>
+        <item>"Politik"</item>
+        <item>"Militer"</item>
+        <item>"Publik"</item>
+        <item>"Video"</item>
+        <item>"Kesehatan"</item>
+        <item>"Olahraga"</item>
+        <item>"Asmara"</item>
+        <item>"Keluarga"</item>
+        <item>"Dapur"</item>
+        <item>"Tarot"</item>
+        <item>"Beauty"</item>
+        <item>"Fashion"</item>
+        <item>"Selebrity"</item>
+        <item>"Tekno""</item>
+        <item>"ce/co"</item>
+        <item>"Parents"</item>
+        <item>"Travel"</item>
+        <item>"Wow"</item>
+        <item>"Funny"</item>
+    </array>
+    <string name="str_tip_choose_max">"Maksimal 6pilihan"</string>
+    <string name="str_guest">"Turis"</string>
+    <string name="str_robot_service">"Robot on Service"</string>
+    <string name="str_robot_trusteeship">"Robot dalam pengawasan"</string>
+    <string name="str_service_for_you">"Pelayanan anda"</string>
+    <string name="str_gold">"Poin"</string>
+    <string name="str_congratulation_get">"Selamat anda mendapatkan"</string>
+    <string name="str_re_oldnews">"mengulangi, berita lama"</string>
+    <string name="str_content_quality">"Isi bacaan tidak berbobot"</string>
+    <string name="str_sure_shield">"Sembunyikan"</string>
+    <string name="str_reason_to_shield">"Alasan memilih, Sembunyikan"</string>
+    <string name="str_not_interest">"Tidak tertarik"</string>
+    <string name="str_registersuc">"Register berhasil"</string>
+    <array name="strs_connecting">
+        <item>Proses koneksi</item>
+        <item>Proses koneksi.</item>
+        <item>Proses koneksi..</item>
+        <item>Proses koneksi...</item>
+    </array>
+    <string name="str_do_connecting">"Dalam proses koneksi..."</string>
+    <string name="str_network_useless">"Tidak ada koneksi internet..."</string>
+    <string name="str_recommend">"Rekomendasi"</string>
+    <string name="str_content_newest">"Halaman terbaru"</string>
+    <string name="str_new_user_hongbao">"Pengguna awal dapatkan 1 Angpao"</string>
+    <string name="str_click_hear_trim">"Klik disini"</string>
+    <string name="str_manager_channel">"Atur Kategori"</string>
+    <string name="str_register_suc">"Register berhasil"</string>
+    <string name="str_pocket_money">"Tabungan"</string>
+    <string name="str_text_gold">"--\nPoint"</string>
+    <string name="str_copy_link">"Copy link"</string>
+    <string name="str_system_share">"System Share"</string>
+    <string name="str_system_share_txt">"More"</string>
+    <string name="str_not_like">"Tidak suka"</string>
+    <string name="str_share_to">"share ke"</string>
+    <string name="str_share_suc">"Share berhasil！"</string>
+    <string name="str_share_cancel">"Share dibatalkan"</string>
+    <string name="str_share_fail">"Share gagal, silakan dicoba kembali"</string>
+    <string name="str_look_detail">"Selengkapnya  >>"</string>
+    <string name="str_copy_to_clipboard">"sudah di copy ke edition"</string>
+    <string name="str_al_copy">"ter copy"</string>
+    <string name="str_downloading">"Sedang download..."</string>
+    <string name="str_pic_doing">"Gambar sedang di proses, silakan dicoba kembali!"</string>
+    <string name="str_get_pic_fail">"Permintaan Gambar gagal, silakan di coba kembali"</string>
+    <string name="str_tip_page_error">"Terdapat kesalahan, sebagian features tidak berfungsi, silakan  di buka kembali！"</string>
+    <string name="str_i_know">"Sudah tahu"</string>
+    <string name="str_cant_find_app"> "Tidak menemukan aplikasi！"</string>
+    <string name="str_cant_open">"Tidak dapat dibuka,silkakan menghubungi layanan pelanggan"</string>
+    <string name="str_no_down_tool">"Tidak menemukan alat pendukung download"</string>
+    <string name="str_load_more">"Loading lebih banyak"</string>
+    <string name="str_no_more">"Tidak ada tambahan"</string>
+    <string name="str_open_all">"Buka selengkapnya"</string>
+    <string name="str_tip_praise">"Klik suka untuk mendukung"</string>
+    <string name="str_publish_view">"Mari sisipkan ulasanmu.."</string>
+    <string name="str_clean">"Pengosongan"</string>
+    <string name="str_tip_err_msg">"Untuk pemeriksaan kesalahan silakan klik di bagian atas halaman ini"</string>
+    <string name="str_find_pwd">"Dapatkan kembali password"</string>
+    <string name="str_phone_number">"Nomor handphone"</string>
+    <string name="str_phone_number_change">"Perubahan no. Handphone"</string>
+    <string name="str_phone_number_bind">"Daftarkan No.Handphone"</string>
+    <string name="str_input_pic_code">"Silakan masukkan kode verifikasi"</string>
+    <string name="str_input_sms_code">"Silakan masukkan kode verifikasi"</string>
+    <string name="str_get_sms_code">"Dapatkan kode verifikasi"</string>
+    <string name="str_next_sept">"Selanjutnya"</string>
+    <string name="str_set_new_pwd">"Masukkan password baru"</string>
+    <string name="str_pwd">"Password"</string>
+    <string name="str_tip_pwd_length">"Masukkan password(6-20 digit)"</string>
+    <string name="str_input_again_pwd">"Masukkan sekali lagi password"</string>
+    <string name="str_app_initing">"Reset..."</string>
+    <string name="str_font_size">"Ukuran hufuf"</string>
+    <string name="str_tip_font">"↓klik tombol dibawah dan ubahlah ukuran huruf↓"</string>
+    <string name="str_night_model">"Modus malam"</string>
+    <string name="str_screen_light">"Kecerahan layar"</string>
+    <string name="str_small">"Kecil"</string>
+    <string name="str_middle">"Sedang"</string>
+    <string name="str_big">"Besar"</string>
+    <string name="str_cut">"Cut"</string>
+    <string name="str_improve_documentation">"Profil Saya"</string>
+    <string name="str_head_pic">"Foto profil"</string>
+    <string name="str_nickname">"Nama panggilan"</string>
+    <string name="str_input_nickname">"Masukkan nama panggilan"</string>
+    <string name="str_age">"Umur"</string>
+    <string name="str_taking_about_qu">"Top Ulasan"</string>
+    <string name="str_text_nick_name">"Jadikanlah diri anda sebagai manager"</string>
+    <string name="str_network">"Internet"</string>
+    <string name="str_fans_zero">"Penggemar0"</string>
+    <string name="str_read_zero">"Membaca0"</string>
+    <string name="str_collection_zero">"Favorit0W"</string>
+    <string name="str_tip_no_sign">"TA belum meninggalkan Sign"</string>
+    <string name="str_tip_send_money_new_user">"Pertama sign up akun mendapatkan Gold angpao            "</string>
+    <string name="str_find_customer_service">"Hubungi Pelayanan anda"</string>
+    <string name="str_discovery">"Menemukan"</string>
+    <string name="str_my">"Saya"</string>
+    <string name="str_activity">"活动"</string>
+    <string name="str_tip_channel_manager">"Tandai yang disuka dan jadikan yang terdepan, bisa menggunakan rekomendasi bacaan！"</string>
+    <string name="str_my_collection">"favoritku"</string>
+    <string name="str_tip_no_lick_article">"Anda masih belum menemukan bacaan yang disukai~"</string>
+    <string name="str_look_around">"Melihat-lihat"</string>
+    <string name="str_name">"Nama"</string>
+    <string name="str_input_name">"masukkan nama"</string>
+    <string name="str_pay_zhifubao">"Doku Wallet"</string>
+    <string name="str_pay_wx">"Wechat"</string>
+    <string name="str_day_hot_article">"Hot topic"</string>
+    <string name="str_register">"Sign up"</string>
+    <string name="str_read_and_agree_rule">"sudah baca dan setuju"</string>
+    <string name="str_register_hongbao">"sign up dan dapatkan Angpao"</string>
+    <string name="str_edit_pwd">"Repassword"</string>
+    <string name="str_input_old_pwd">"Masukkan password lama"</string>
+    <string name="str_tip_new_pwd_length">"Masukkan password baru(6-20 digit)"</string>
+    <string name="str_confirm_new_pwd">"pastikan password baru ini"</string>
+    <string name="str_search">"Pencarian"</string>
+    <string name="str_search_content">"Cari bacaan yang disukai"</string>
+    <string name="str_qutoutiao_num">"nomor  pengguna KUBIK"</string>
+    <string name="str_setting">"Pengaturan"</string>
+    <string name="str_setting_about">"Tentang"</string>
+    <string name="str_clear_cache">"Hapus memori"</string>
+    <string name="str_grade_qu">"Rating kami"</string>
+    <string name="str_suggest_feedback">"Kritik dan saran"</string>
+    <string name="str_privacy_rule">"Kebijakan privasi"</string>
+    <string name="str_check_update">"Periksa update terbaru"</string>
+    <string name="str_about_us">"Tentang"</string>
+    <string name="str_logout">"Log out"</string>
+    <string name="str_tip_reading">"Jadikan membaca\n menjadi semakin berarti"</string>
+    <string name="str_app_starting">"Loading"</string>
+    <string name="str_qutoutiao">"KUBIK"</string>
+    <string name="str_people_search">"mungkin anda berminat"</string>
+    <string name="str_follow_qu">"Follow me"</string>
+    <string name="str_tip_bind_hongbao">"Dapatkan Angpao beserta 60 point"</string>
+    <string name="str_bind_get_money">"Dapatkan Point reward"</string>
+    <string name="str_look_around_first">"melihat-lihat"</string>
+    <string name="str_title">"Topik"</string>
+    <string name="str_subtitle">"Subtopik"</string>
+    <string name="str_dcr_text_desc">"Lihat juga bagian yang lain"</string>
+    <string name="str_downing">"Seda1ng download..."</string>
+    <string name="str_down_background">"Sembunyikan tampilan download"</string>
+    <string name="str_tip_newest_version">"Vindersi terbaru"</string>
+    <string name="str_loding">"Loading..."</string>
+    <string name="str_hot_news">"Hot"</string>
+    <string name="str_txt_look_detail">"Selengkapnya"</string>
+    <string name="str_tip_contact">"Pembacaan daftar telpon..."</string>
+    <string name="str_congratulation_foryou">"Selamat anda mendapatkan"</string>
+    <string name="str_redbag_open">"Jalankan misi raih poin ++"</string>
+    <string name="str_login_redpack">"Angpao Pengguna Awal"</string>
+    <string name="str_save_balance">"Sudah di Top up pulsa"</string>
+    <string name="str_confirm">"Ok"</string>
+    <string name="str_one_hongbao">"1 Angpao"</string>
+    <string name="str_tip_gift_form_qu">"Angpao ini diperoleh dari KUBIK"</string>
+    <string name="str_txt_comment_complaints">"Komentar"</string>
+    <string name="str_complaint_content">"Keluhan anda sudah diproses, terima kasih atas dukungan anda"</string>
+    <string name="str_app_update">"Versi terbaru"</string>
+    <string name="str_app_update_content">"1.Perubahan \n2.Keseluruhan \n3.Pemberitahuan perubahan \n4.Tambahkan Informasi"</string>
+    <string name="str_ignore_update">"Sementara tidak update"</string>
+    <string name="str_update_atonce">"Segera update"</string>
+    <string name="str_my_follow">"Follow"</string>
+    <string name="str_change">"Ganti yang lain"</string>
+    <string name="str_message">"Informasi"</string>
+    <string name="str_message_center">"Pusat informasi"</string>
+    <string name="str_common_problem">"FAQ"</string>
+    <string name="str_text_money_hint"><![CDATA[Log In dan dapatkan Rp. 500]]></string>
+    <string name="str_text_login_warning_hint">Akun yang sah terdaftar di ponsel anda hanya 1 saja.</string>
+    <string name="str_text_tips">"Pengaturan Profil anda >"</string>
+    <string name="str_text_balance">"-- \nPulsa"</string>
+    <string name="str_people_report">"Majalah harian Renmin"</string>
+    <string name="str_text_attention_comment_count">"-Follow -Ulasan"</string>
+    <string name="str_text_attention_count">"-Follow"</string>
+    <string name="str_more_comment">"Ulasan lebih lengkap"</string>
+    <string name="str_look_more">"Selengkapnya"</string>
+    <string name="str_look_more_flag">"Selengkapnya >"</string>
+    <string name="str_more">"lebih banyak"</string>
+    <string name="str_change_market">"Penukaran Point"</string>
+    <string name="str_tip_pro">"Beraneka jenis produk"</string>
+    <string name="str_game_center">"Games center"</string>
+    <string name="str_tip_game">"luangkan waktu anda"</string>
+    <string name="str_kstore_result">Peninjauan memakan waktu 2-3 hari,\n status penukaran dapatdilihat di &quot;History&quot;</string>
+    <string name="str_good_comment">"Ulasan bagus"</string>
+    <string name="str_open_hide">"Unfold hidden"</string>
+    <string name="str_my_program">"kolum baris"</string>
+    <string name="str_new">"Baru"</string>
+    <string name="str_tip_add_channel">"Klik kategori berikut untuk tambahkan"</string>
+    <string name="str_hot_subscribe">"Langganan Hot"</string>
+    <string name="str_advertisement">"Iklan"</string>
+    <string name="str_down_atonce">"Download"</string>
+    <string name="str_search_recently">"Pencarian terkini"</string>
+    <string name="str_clear_history">"kosongkan histori"</string>
+    <string name="str_tip_attention">"&quot;anda masih belum follow up bacaan&quot;\nmari follow bersama!"</string>
+    <string name="str_find_more">"Masih banyak lagi yang menarik"</string>
+    <string name="str_tip_cancel_follow">"←Geser ke kiri unfollow otomatis"</string>
+    <string name="str_retry">"Klik dan dapatkan kembali"</string>
+    <string name="str_tip_no_content">"Belum ada tambahan bacaan dari penulis ini"</string>
+    <string name="str_tip_no_data">"tidak ada konten"</string>
+    <string name="str_tip_search_retry">"Tidak menemukan \n silakan melakukan pencarian kembali~"</string>
+    <string name="str_txt_foot_loading">"Loading..."</string>
+    <string name="str_list_qu">"Top Ranking"</string>
+    <string name="str_err_and_flush">"Ada kesalahan \n silakan di perbaharui lagi!"</string>
+    <string name="str_tip_flush">"Bacaan terakhir, klik perbaharui lagi"</string>
+    <string name="str_text_invite_title">"Invite teman dapatkan Angpao"</string>
+    <string name="str_ext_invite_desc">"Invite dan dapatkan kejutan di setiap harinya"</string>
+    <string name="str_click_done">"Klik sukses"</string>
+    <string name="str_normal">"Normal"</string>
+    <string name="str_super_big">"Terlalku besar"</string>
+    <string name="str_change_font">"Pengaturan ukuran huruf"</string>
+    <string name="str_collect_article">"Bacaan favorit"</string>
+    <string name="str_my_complaint">"Keluhan"</string>
+    <string name="str_gift_remain">"Reward remind"</string>
+    <string name="str_choose_like">"pilih yang di suka"</string>
+    <string name="str_click_flush">"Klik dan perbaharui"</string>
+    <string name="str_tip_network_error">"Maaf, tidak terkoneksi internet \n disarankan menggunakan koneksi 4G atau WIFI"</string>
+    <string name="str_err_report">"Laporkan kesalahan"</string>
+    <string name="str_tip_rigister">"Sign up for one yuan of red envelops"</string>
+    <string name="str_cash_exchange">"Top Up"</string>
+    <string name="str_facebook">"Facebook"</string>
+    <string name="str_toolpanl_whatsapp">"WhatsApp"</string>
+    <string name="str_edit_hint_comment">"Tinggalkan Ulasan"</string>
+    <string name="str_al_look">"Sudah membaca"</string>
+    <string name="str_content_not_like">"Tidak menyukai konten penulis ini"</string>
+    <string name="str_type_not_like">"Tidak menyukai jenis konten ini"</string>
+    <string name="str_video_not_like">"Tidak menyukai jenis video ini"</string>
+    <string name="str_video_not_clear">"Tampilan video tidak jernih"</string>
+    <string name="str_shield_atonce">"Sembunyikan"</string>
+    <string name="str_time_now">"Barusan"</string>
+    <string name="str_time_second_ahead">" detik yang lalu"</string>
+    <string name="str_time_min_ahead">" menit yang lalu"</string>
+    <string name="str_time_hour_ahead">" jam yang lalu"</string>
+    <string name="str_time_day_ahead">" hari yang lalu"</string>
+    <string name="str_time_mon_ahead">" bulan yang lalu"</string>
+    <string name="str_time_year_ahead">" tahun yang lalu"</string>
+    <string name="str_time_day_ahead_1">"1hari yang lalu"</string>
+    <string name="str_time_day_ahead_7">"7hari yang lalu"</string>
+    <string name="str_time_second">"detik"</string>
+    <string name="str_time_min">"menit"</string>
+    <string name="str_time_hour">"jam"</string>
+    <string name="str_time_day">"hari"</string>
+
+    <string name="str_time_monday">"Senin"</string>
+    <string name="str_time_tuesday">"Selasa"</string>
+    <string name="str_time_wednesday">"Rabu"</string>
+    <string name="str_time_thursday">"Kamis"</string>
+    <string name="str_time_friday">"Jumat"</string>
+    <string name="str_time_saturday">"Sabtu"</string>
+    <string name="str_time_sunday">"Minggu"</string>
+
+
+    <string name="str_toast_login_fail">"log in gagal, coba kembali"</string>
+    <string name="str_toast_login_cancel">"batalkan log in"</string>
+    <string name="str_toast_login_suc">"Sign In berhasil！"</string>
+    <string name="str_sex">"Jenis Kelamin"</string>
+    <string name="str_sex_man">"Laki-laki"</string>
+    <string name="str_sex_female">"Perempuan"</string>
+    <string name="str_login_redpack_1">"Selamat Anda Mendapatkan"</string>
+    <string name="str_login_redpack_2">"Angpao Pengguna Awal"</string>
+    <string name="str_login_redpack_3">"Log in pertama kali raih maksimal Rp 100.000"</string>
+    <string name="str_login_award">"Log in pertama kali raih maksimal"</string>
+    <string name="str_push">"Notifikasi"</string>
+
+    <string name="str_phone_success">"Perubahan berhasil"</string>
+    <string name="str_phone_">" No. Handphone salah"</string>
+    <string name="str_user_always_get_red_bag">"Maaf, anda sudah pernah Sign in"</string>
+
+
+    <string name="str_bind_tel_hint">"Sisa selangkah lagi kamu akan berhasil"</string>
+    <string name="str_kstore_readme">"\n\nInfo：\n\nMasukkan no ponselmu. Jumlah kuota dipengaruhi oleh kebijakan masing-masing provider.\n\nJika ingin mengubah nomor ponsel, silakan masukkan kembali nomormu."</string>
+    <string name="str_sign_in_title_one">"Berhasil masuk"</string>
+    <string name="str_sign_in_title_two">"Berhasil masuk"</string>
+
+    <string name="str_empty_input">"Tulis Komentar"</string>
+
+    <string name="str_award_notice_remark">"Check di halaman profil>> Poin"</string>
+
+    <string name="str_sign_in_page_name">Absen</string>
+
+    <string name="str_sign_in_page_next_day_reward_banner">Hari ke-%d</string>
+    <string name="first_login"><![CDATA[%1$s</font><font color="#FFFF7100">%2$s</font>%3$s]]></string>
+
+    <string name="axis">AXIS</string>
+    <string name="select">Pilih</string>
+    <string name="tab_name_call_charges">Pulsa</string>
+    <string name="tab_name_mobile_data">Mobile Data</string>
+
+    <string name="kstore_convert_result_tip_1">Anda harus menunggu peninjauan dari tim kubik setelah mengirimkan permintaan penukaran. Setelah peninjauan selesai, tim kami akan mengirimkan \"Serial\" dan \"PIN\" (Dapat dibaca di bagian \"Riwayat\").</string>
+    <string name="kstore_convert_result_tip_2">Setelah menerima \"Serial\" dan \"PIN\", silakan akses https://www.unipin.co.id/mobile-legends untuk menukar Diamond.</string>
+
+    <string name="kstore_phone_number_length_error_tip">Maaf, nomor telepon harus terdiri dari minimal 9 karakter dan dengan format +628xxx</string>
+    <string name="kstore_unsupported_operator_tip">Maaf, layanan belum tersedia</string>
+
+    <string name="award_introduce">
+        <![CDATA[
+        <font color="#222222">%1$s</font>
+       <font color="#FF7100"> %2$s </font>
+        <font color="#222222">%3$s</font>
+        ]]>
+    </string>
+
+    <string name="notification_open_page_tip_1">Buka【Bilah Status dan Pemberitahuan】pada Pengaturan, cari Aplikasi Kubik</string>
+    <string name="notification_open_page_tip_2">Aktifkan【Izinkan Notifikasi】 untuk mendapat notifikasi KUBIK, dapatkan poin dari membaca notifikasi</string>
+
+    <string name="short_video_detail_comment">%1$sBalas</string>
+    <string name="short_video_loading_tip">Sedang mengirim</string>
+    <string name="short_video_load_success_tip">Fitur Komentar</string>
+    <string name="short_video_load_fail_tip">gagal Komentar</string>
+</resources>
