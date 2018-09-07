@@ -1,0 +1,17 @@
+*.iml
+.gradle
+.idea
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+/gradle/
+/PushSDK/build/outputs/
+/PushSDK/build/
+
+# Freeline
+freeline/
+freeline.py
+freeline_project_description.json
