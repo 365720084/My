@@ -7,6 +7,7 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.os.Environment;
 import android.support.multidex.MultiDex;
+import android.support.multidex.MultiDexApplication;
 import android.util.Log;
 
 import com.alibaba.android.arouter.launcher.ARouter;
@@ -76,7 +77,7 @@ public class App extends Application {
 
                 //TODO 会自动上报 确认后可以取消下面的上报
                 CrashReport.postCatchedException(throwable);
-                RouterUtils.routerGoWithOutParma(ActivityPath.NATIVE_MAIN);
+//                RouterUtils.routerGoWithOutParma(ActivityPath.NATIVE_MAIN);
 
                 //存到本地
                 if(BuildConfig.LOG_DEBUG) {
@@ -90,7 +91,7 @@ public class App extends Application {
             protected void onBandageExceptionHappened(Throwable throwable) {
                 //主动上报
                 CrashReport.postCatchedException(throwable);
-                RouterUtils.routerGoWithOutParma(ActivityPath.NATIVE_MAIN);
+//                RouterUtils.routerGoWithOutParma(ActivityPath.NATIVE_MAIN);
                 //存到本地
                 if(BuildConfig.LOG_DEBUG) {
                     //打印崩溃

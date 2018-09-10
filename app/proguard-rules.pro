@@ -257,7 +257,7 @@ public void onEventMainThread(com.chezhu.events.BaseEvent);
 -keep class org.**{*;}
 -dontwarn android.net.http**
 -keep class android.net.http.**{*;}
-
+-keep class android.support.**{*;}
 -dontwarn com.android.installreferrer
 -dontwarn com.appsflyer.**
 
@@ -282,3 +282,9 @@ public void onEventMainThread(com.chezhu.events.BaseEvent);
 }
 -dontwarn com.alibaba.android.arouter.facade.model.**
 -keep class com.inno.innosecure.** { *; }
+
+-dontwarn com.tencent.bugly.**
+-keep public class com.tencent.bugly.**{*;}
+# tinker混淆规则
+-dontwarn com.tencent.tinker.**
+-keep class com.tencent.tinker.** { *; }
