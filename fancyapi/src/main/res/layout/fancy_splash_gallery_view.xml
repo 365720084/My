@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--<androidx.viewpager.widget.ViewPager-->
+        <!--android:id="@+id/gallery"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:clipChildren="false" />-->
+
+    <com.fancy.fancyapi.component.HorizontalView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+
+            android:layout_height="match_parent"
+            />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+
+            android:layout_height="match_parent"
+            />
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+
+            />
+
+    </com.fancy.fancyapi.component.HorizontalView>
+    <ImageView
+        android:id="@+id/background"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+
+        />
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/hint"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_left"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="50dp"
+        android:id="@+id/lottie"
+        android:layout_centerInParent="true"
+        android:layout_height="50dp"
+        app:lottie_autoPlay="false"
+        android:visibility="visible"
+        app:lottie_fileName="slope.json"
+        app:lottie_loop="false" />
+    <LinearLayout
+        android:id="@+id/buyNow"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36.5dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/bottom_solid_white"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/buy_now"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="@string/buynow"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

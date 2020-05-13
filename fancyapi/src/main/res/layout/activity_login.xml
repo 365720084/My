@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar"
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="趣有钱"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/qtt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="趣头条"
+        android:textColor="@color/textBlack"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="323dp"
+        android:layout_height="67.5dp"
+        android:layout_below="@+id/qtt_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17.5dp"
+        android:gravity="center_horizontal"
+        android:textColor="#FF646464"
+        android:textSize="14sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/loadingRL"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/desc"
+        android:gravity="center_horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFFF4E00"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/tips"
+            android:layout_width="196.5dp"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:textColor="#FF646464"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/install"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="270dp"
+            android:layout_height="47dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="18dp"
+            android:text="去安装"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/author"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="270dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="18dp"
+        android:text="去授权"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
