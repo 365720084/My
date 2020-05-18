@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ptgapi" >
+
+    <application>
+        <activity android:name="com.ptg.ptgapi.activity.PtgLandingPageActivity" />
+    </application>
+</manifest>

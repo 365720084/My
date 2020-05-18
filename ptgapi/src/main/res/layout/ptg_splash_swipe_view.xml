@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--<androidx.viewpager.widget.ViewPager-->
+        <!--android:id="@+id/gallery"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:clipChildren="false" />-->
+
+    <com.ptg.ptgapi.component.CustomVideoView
+        android:id="@+id/viedoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/image"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_left"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="54dp"
+        android:id="@+id/lottie"
+        android:layout_above="@id/buyNow"
+        android:scaleType="centerCrop"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        app:lottie_fileName="data.json"
+        app:lottie_loop="true" />
+
+
+    <Button
+        android:id="@+id/buyNow"
+        android:textSize="@dimen/buy_now"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/rect_stroke_30_9b_solid"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="78dp"
+        android:paddingLeft="29dp"
+        android:paddingRight="29dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:textColor="@color/CS_black"
+        android:layout_height="33.5dp"
+        android:text="@string/buynow"/>
+
+
+</RelativeLayout>
